@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 18, 2019, 10:14:06 PM
+    Author     : nguyenduchuy
+*/
+
+span {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+h2 {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+p {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+div.wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+h2.cart-header {
+    font-size: 48px;
+    align-self: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+div.ahaft-card-box {
+    width: 47%;
+    margin-left: 2%;
+    height: 640px;
+    background-color:  #E6E6E6; /* gray */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("a.jpg");
+    background-size: 675px 650px;
+}
+h2.ahaft-card-title {
+    font-size: 48px;
+    align-self: center;
+    margin-bottom: 10px;
+    font-weight: normal;
+    margin-top: 35px;
+}
+div.ahaft-card-top-image {
+    align-self: center;
+    margin-bottom: 10px;
+    font-weight: normal;
+    margin-top: 35px;
+    width: 176px;
+    height: 39px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+p.ahaft-card-description {
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+a span.detail-link {
+    color: #3972B8; /* blue */
+    align-self: center;
+    text-align: center;
+
+    display:inline-block;
+    padding-bottom: 1px;
+    text-decoration: none;
+}
+.ahaft-card-box a {
+    text-decoration: none;
+}
+
+/*            a span:hover.ahaft-card-link-title {
+                text-decoration: underline;
+                -moz-text-decoration-color: #3972B8;  blue 
+                -o-text-decoration-color: #3972B8;  blue 
+                -webkit-text-decoration-color: #3972B8;  blue 
+                -webkit-text-decoration-color: #3972B8;  blue 
+            }*/
+
+a:hover > span.detail-link-title {
+    text-decoration: underline;
+    -moz-text-decoration-color: #3972B8; /* blue */
+    -o-text-decoration-color: #3972B8; /* blue */
+    -webkit-text-decoration-color: #3972B8; /* blue */
+    -webkit-text-decoration-color: #3972B8; /* blue */
+}
+
+a:hover.white > span.detail-link-title {
+    text-decoration: underline;
+    -moz-text-decoration-color: white;
+    -o-text-decoration-color: white;
+    -webkit-text-decoration-color: white;
+    -webkit-text-decoration-color: white;
+}

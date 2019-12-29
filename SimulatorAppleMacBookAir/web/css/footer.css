@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 3, 2019, 3:00:48 PM
+    Author     : SE130162
+*/
+
+.footer{
+    width: 100%;
+    background-color: #f5f5f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-content{
+    width: 60%;
+    color: #86868b;
+    padding:17px 0 11px;
+    border-bottom: 1px solid #d2d2d7;
+    font-size:12px;
+
+}
+.footer-ul-multicontent{
+    list-style-type: none;
+    margin:0 0 10px 0;
+    padding:0;
+}
+.footer-ul-multicontent li{
+    padding:10px 0 0 0;
+    margin: 0;
+}
+.footer-container-wapper-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.footer-container-wapper-row a{
+    color: #86868b;
+    text-align: left;
+}
+.box-list{
+    margin-bottom: 10px;
+}
+.box-list label{
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #1d1d1f;
+}
+.policy-navbar a:hover{
+    text-decoration: underline;
+}
+.policy-navbar a{
+    margin: 5px 7px 0 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px #86868b solid;
+}
+.IconNation{
+    height: 18px;
+    width: 21px;
+    border-radius: 50%;
+}
+.nation{
+    display: flex;
+    flex-direction:row;
+   
+}

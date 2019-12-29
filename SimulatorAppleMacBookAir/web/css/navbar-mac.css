@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 3, 2019, 11:23:48 AM
+    Author     : SE130162
+*/
+
+div.main-div{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
+ul.navbar-product-mac{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0px 34px;
+    padding:  0px 0px 49px;
+}
+li.navbar-product-mac-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-product-mac-items figure{
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0 auto 6px;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    /*background-size: auto;*/
+}
+.navbar-product-mac-items p{
+
+    font-weight: 400;
+    font-size: 11px;
+    margin: 0;
+}
+.navbar-product-mac-items span{
+    width: 100%;
+    text-align: center;
+    font-size: 9px;
+    color: #ef5602;
+
+}
+.navbar-product-mac-items a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+    color: #111;
+    margin-top:3px;
+}

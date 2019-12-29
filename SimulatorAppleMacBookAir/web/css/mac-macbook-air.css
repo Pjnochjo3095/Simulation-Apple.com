@@ -1,0 +1,173 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2019, 3:41:21 PM
+    Author     : nguyenduchuy
+*/
+
+
+div.feature-intro-wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+div.feature-intro-container {
+    width: 980px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.feature-intro-container div.title-container {
+    width: 100%;
+    height: 240px;
+}
+
+div.title-container {
+    padding-left: 10%;
+    height: auto;
+}
+
+.title-font {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+}
+span.title {
+    color: #cfcfcf;
+}
+span.subtitle {
+    color: #111;
+}
+
+div.feature-intro-container div.image-intro {
+    width: 100%;
+    height: auto;
+    /*height: 578px;*/
+    /*background-size: 100% 578px;*/
+    background-repeat: no-repeat;
+    /*background-image: url('images/mac/macbook-air/retina-end-frame.jpg');*/
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.content-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: auto;
+}
+
+div.content-container div.left-content {
+    /*width: 35%;*/
+    height: auto;
+}
+div.left-content p.description {
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+div.content-container div.right-content {
+    /*width: 35%;*/
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.right-content div.badge-item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    float: left;
+}
+
+div.badge-item span.badge-value {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+div.badge-item span.badge-caption {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #333;
+    margin-top: 8px;
+}
+div.badge-item span.left-caption {
+    padding-right: 40%;
+}
+div.badge-item span.center-caption {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+div.badge-item div.badge-icon {
+    width: 54px;
+    height: 54px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two-badges div.left-content {
+    width: 38% !important;
+    background-color: inherit;
+}
+.two-badges div.right-content {
+    width: 38% !important;
+    background-color: inherit;
+}
+.two-badges span.badge-caption {
+    padding-right: 20px;
+}
+
+
+
+.one-badge div.left-content {
+    width: 55% !important;
+    background-color: inherit;
+    height: auto !important;
+}
+.one-badge div.right-content {
+    width: 20% !important;
+    background-color: inherit;
+}
+.one-badge div.badge-item {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.one-badge span.badge-caption {
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+h3.title-content {
+    width: 100%;
+    margin: 0px 0px 12px 0px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.light-gray {
+    background-color: rgb(245, 245, 245); 
+}

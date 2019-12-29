@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 18, 2019, 10:30:23 PM
+    Author     : nguyenduchuy
+*/
+
+div.empty-box {
+    width: 100%;
+    height: 25px;
+}
+
+div.center-vertical {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+div.center-horizontal {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+button:focus {
+    outline: 0px;
+    box-shadow: none !important;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.flex-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.flex-coloumn {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}
+
+a span.detail-link {
+    color: #3972B8; /* blue */
+    align-self: center;
+    text-align: center;
+
+    display:inline-block;
+    padding-bottom: 1px;
+    text-decoration: none;
+}
+.ahaft-card-box a {
+    text-decoration: none;
+}
+
+a:hover > span.detail-link-title {
+    text-decoration: underline;
+    -moz-text-decoration-color: #3972B8; /* blue */
+    -o-text-decoration-color: #3972B8; /* blue */
+    -webkit-text-decoration-color: #3972B8; /* blue */
+    -webkit-text-decoration-color: #3972B8; /* blue */
+}
+
+a:hover.white > span.detail-link-title {
+    text-decoration: underline;
+    -moz-text-decoration-color: white;
+    -o-text-decoration-color: white;
+    -webkit-text-decoration-color: white;
+    -webkit-text-decoration-color: white;
+}
